@@ -1,0 +1,22 @@
+<h1>Sign up to join our summer camp today!</h1>
+
+    <% if flash[:my_errors] %>
+        <% flash[:my_errors].each do |message| %>
+            <p><%= message %></p>
+        <% end %>
+    <% end %>
+
+
+    <%= form_for @camper do |f| %>
+        <br>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+        <br>
+        <br>
+        <%= f.label :age %>
+        <%= f.number_field :age %>
+        <br>
+        <br>
+        <%= f.submit %>
+        <br>
+    <% end %>

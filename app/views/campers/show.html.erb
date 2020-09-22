@@ -1,0 +1,9 @@
+<h2>Name: <%= @camper.name %></h2>
+<br>
+<h3>Age: <%= @camper.age %></h3>
+<h3>List of activities <%= @camper.name %> is currently signed up for:</h3>
+    <ul>
+        <% @camper.activities.uniq.each do |activity| %>
+            <li><%= activity.name %></li>
+        <% end %>
+    </ul>
