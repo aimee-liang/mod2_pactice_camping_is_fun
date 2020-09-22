@@ -17,7 +17,7 @@ Currently, we don't have any way to associate the two, so consider the relations
 3. ✅ As a user, I should be able to go to the index page of the `activities` and click on the name of the activity to go to the show page for that `activity`. 
         ✅ The show page should show the `activity's` name and its difficulty level.
 
-4. As a user, I should be able to fill out a form to create a new `signup` that will associate a `camper` with an `activity`. I should be able to choose an existing `activity`, choose an existing `camper` and add a time. Upon a successful creation, I should be redirected to the `camper's` show page.
+✅ 4. As a user, I should be able to fill out a form to create a new `signup` that will associate a `camper` with an `activity`. I should be able to choose an existing `activity`, choose an existing `camper` and add a time. Upon a successful creation, I should be redirected to the `camper's` show page.
 
 ✅ 5. As a user, I should be able to fill out a form to create a new `camper`, with their names (which must be unique) and age (which must be between 8 and 18)!
 
